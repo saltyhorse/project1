@@ -17,7 +17,6 @@
     <!-- Own CSS -->
     <link rel="stylesheet" href="stylesheet.css">
 
-    <title>Skin, Uncomplicated</title>
     <title>Simplifying Skincare</title>
   </head>
   <body>
@@ -41,58 +40,66 @@
 
     <!-- Full width Jumbotron -->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-            <h1 class="display-4">Simplifying Skincare</h1>
-            <p class="lead">You can sit back and relax - We'll handle the upkeep.</p>
-            <hr class="my-5">
-            <a class="btn btn-info" href="experience.html" role="button">Learn More</a>
+        <div class="container text-center">
+             <h1>We'd Love to Hear From You</h1>
         </div>
     </div>
 
-      <!-- Section with Philosophy -->
-  <div class="philosophy my-4 py-5">
-    <div class="container">
-      <div class="col text-center">
-        <h3> There's no more need to splurge on the latest treatment or spend hours researching what ingredients to use for your skin.
-          Pare down your daily skin routine and incorporate UpKeep facials to give the boost of nurtition and care to keep your skin on its A game.</h3>
-      </div>
+    <!-- Form -->  
+    <div class="container my-10">
+        <form netlify>
+            <div class="form-group">
+                <label for="name">Your name</label>
+                <input type="text" class="form-control" id="name" name="name">
+              </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone number</label>
+                <input type="phone" class="form-control" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+            <label for="textarea">Your Message</label>
+            <textarea class="form-control" id="textarea" rows="3" name="textarea"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Preferred method of contact?</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="contactMethod" id="contactEmail" value="email" checked>
+                  <label class="form-check-label" for="contactEmail">
+                    Email
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="contactMethod" id="contactPhone" value="phone">
+                  <label class="form-check-label" for="contactPhone">
+                    Phone Call
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="contactMethod" id="contacttext" value="text">
+                  <label class="form-check-label" for="contacttext">
+                    Text
+                  </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+        </form>
     </div>
-  </div>
+            
+    <hr class="my-4">
 
-    <!-- Columns with value props -->
-    <div class="columns">
-      <div class="container">
-        <div class="row mt-4">
-          <div class="col-lg text-center">
-            <h3>Regular Facials Without the Price Tag </h3>
-            <hr class="my-4">
-            <p>Forget the hefty prices and time commmitements you've typically seen with facials. With thirty minute sessions at a fourth of the typical price, you can finally fit in regular facials and reap all the skin benefits.</p>
-            <h3><i class="fab fa-envira"></i></h3>
-          </div>
-          <div class="col-lg text-center">
-            <h3>A Restorative Approach to Treatments</h3>
-            <hr class="my-4">
-            <p>Microneedles, chemical peels, lasers...since when did skincare treatments have to be so invasive? We believe that skincare should be nurturing, helping restore the natural balance your skin needs. </p>
-            <h3><i class="fab fa-envira"></i></h3>
-          </div>
-          <div class="col-lg text-center">
-            <h3>Consistent Quality With Every Encounter </h3>
-            <hr class="my-4">
-            <p>All our esthetician undergo extensive training to master UpKeep's unique approach to facials. So, no matter which location or esthetician, you will recieve the same high quality experience everytime. </p>
-            <h3><i class="fab fa-envira"></i></h3>
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- Footer -->
     <div class="container footer">
-      <div class="row my-5">
-        <div class="col-sm-6 my-auto">
-          <h6>Created 2020</h6>
-          <h6>For educational purposes only</h6>
+        <div class="row my-5">
+          <div class="col-sm-6 my-auto">
+            <h6>Created 2020</h6>
+            <h6>For educational purposes only</h6>
+          </div>
         </div>
       </div>
-    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
